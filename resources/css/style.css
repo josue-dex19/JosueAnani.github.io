@@ -1,0 +1,381 @@
+body {
+    font-family: 'Evolventa', sans-serif;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: end;
+    /* align-items: end; */
+    padding-top: 40px;
+}
+
+nav>ul>li {
+    list-style: none;
+    padding-right: 50px;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: black;
+    font-weight: 450;
+}
+
+nav {
+    font-size: 26px;
+}
+
+
+/* ************************** */
+
+.nav-menu ul li.active>a {
+    color: #f36100;
+}
+
+
+/* ************************** */
+
+#navBtn {
+    background-color: #FF6066;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    margin-top: -1%;
+    margin-right: 30px;
+}
+
+header {
+    padding: 15% 0 0 10%;
+}
+
+header>h1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+header>p {
+    padding-top: 30px;
+    width: 60%;
+    font-size: 20px;
+}
+
+#divImgBackground {
+    margin-top: 100px;
+    background-color: aqua;
+    background-position: center;
+    height: 70vh;
+}
+
+
+/* #divImgBackground>i {
+    display: flex;
+    justify-content: end;
+    padding-right: 150px;
+} */
+
+#divImgBackground>button {
+    border: none;
+    background-color: #FF6066;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-right: 150px;
+    position: absolute;
+    right: 10%;
+    top: 100%;
+}
+
+#cardInfo {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cardInfo>li {
+    list-style: none;
+}
+
+#cardInfo>li>button {
+    background-color: #FF6066;
+    border: none;
+    width: 50px;
+    height: 50px;
+}
+
+#cardInfo>li>span {
+    position: absolute;
+    margin-top: 15px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+#textTitreWinner {
+    width: 60%;
+    padding-top: 50px;
+    /* padding-left: 100px; */
+}
+
+#winnerHead {
+    display: flex;
+    justify-content: space-around;
+}
+
+#btnWinner {
+    margin-top: 13%;
+}
+
+#btnWinner>button {
+    border: none;
+    background-color: #FF6066;
+    padding: 10px 30px 10px 30px;
+    border-radius: 50px;
+}
+
+#black {
+    padding: 50px 100px 0px 50px;
+    background-color: black;
+    color: white;
+}
+
+#black p {
+    border-bottom: white solid 3px;
+    padding-bottom: 10px;
+}
+
+#black h1 {
+    font-weight: bold;
+}
+
+#divImg {
+    background-color: aquamarine;
+}
+
+#bannierCouleur {
+    background-color: #FF6066;
+}
+
+#bannierCouleur>.text-center {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#bannierCouleur h2 {
+    font-weight: bold;
+}
+
+#community {
+    display: flex;
+    justify-content: space-between;
+}
+
+#communityTitre {
+    padding-left: 50px;
+}
+
+#communityIcon {
+    padding-right: 100px;
+}
+
+#condition {
+    display: flex;
+    justify-content: space-between;
+}
+
+#condition2 {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#condition2>li {
+    padding-right: 100px;
+    color: rgb(171, 168, 168);
+}
+
+#partContact {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#partContact ul {
+    list-style: none;
+}
+
+#partContact h4 {
+    color: rgb(171, 168, 168);
+}
+
+#partContact div {
+    padding-right: 100px;
+    text-align: left;
+}
+
+
+/* /////////////////////////////////////////// */
+
+.ps {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 50%;
+    padding-top: 25%;
+}
+
+.ps h1 {
+    font-weight: 800;
+}
+
+#text {
+    width: 30%;
+    padding-top: 10%;
+}
+
+.js {
+    background-color: aqua;
+    height: 70vh;
+}
+
+#textTwo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#textTwo p {
+    width: 30%;
+}
+
+.text-center h1 {
+    text-align: left;
+    margin-left: 35%;
+    font-weight: bold;
+}
+
+#edition h1 {
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+#edition .col-md-5 {
+    background-color: #FF6066;
+    height: 70vh;
+}
+
+#avantLast {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+#avantLast h1 {
+    font-weight: bold;
+}
+
+#avantLast p {
+    width: 70%;
+    padding-left: 40px;
+}
+
+
+/* PROGRAMS */
+
+.space {
+    width: 40px;
+    height: auto;
+    display: inline-block;
+}
+
+#textHeader {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#titrePrograms {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#imgbcg {
+    background-color: #FF6066;
+    border-radius: 20px;
+    padding-top: 50px;
+}
+
+#imgHeader {
+    background-color: #FF6066;
+    height: 70vh;
+    border-radius: 20px;
+    padding-top: 50px;
+}
+
+#conclusion {
+    padding: 100px 100px 50px 100px;
+}
+
+#conclusion>p {
+    padding: 20px 100px 50px 50px;
+}
+
+
+/* #juryHeader {
+    padding: 100px 100px 50px 200px;
+}
+*/
+
+#juryHeader>p {
+    padding: 30px 50px 50px 40%;
+    width: 80%;
+}
+
+
+/* jury */
+
+
+/* #cardCarousel {
+    display: flex;
+    justify-content: center;
+} */
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item>div {
+        display: none
+    }
+    .carousel-inner .carousel-item>div:first-child {
+        display: block
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex
+}
+
+@media (min-width: 768px) {
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%)
+    }
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%)
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+    transform: translateX(0)
+}
+
+#btnDirection {
+    display: flex;
+    justify-content: end;
+}
+
+#btnDirection>button {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+
+#left {
+    color: black;
+}
